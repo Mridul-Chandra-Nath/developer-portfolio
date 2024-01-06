@@ -1,0 +1,56 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* nav related styles */
+
+.text-primary{
+    color: #FD6E0A;
+}
+.btn-primary{
+    background-color: #FD6E0A;
+    border-radius: 5px;
+    color: white;
+    padding: 5px;
+    border: 0;
+    font-weight: 700;
+
+}
+nav{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin: 0 200px;
+    
+}
+.nav-title{
+    color: #181818;
+    font-family: Open Sans;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+nav >ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav a{
+    text-decoration: none;
+}
+.header{
+    background-color:#FFF8F3;
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.banner .profile-picture{
+    width: 500px;
+}
